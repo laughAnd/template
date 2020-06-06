@@ -9,6 +9,14 @@
         </div>
         <div class="header-right">
             <div class="header-user-con">
+                <!-- github -->
+                <div class="btn-intro" @click="handleGithub">
+                    <el-tooltip effect="dark" :content="`github`" placement="bottom">
+                        <el-tooltip effect="dark" :content="`功能引导`" placement="bottom">
+                            <i class="fa fa-github"></i>
+                        </el-tooltip>
+                    </el-tooltip>
+                </div>
                 <!-- 功能引导 -->
                 <div class="btn-intro" @click="handleIntroduce">
                     <el-tooltip effect="dark" :content="`功能引导`" placement="bottom">
@@ -110,6 +118,9 @@
             collapseChage() {
                 this.collapse = !this.collapse;
                 bus.$emit('collapse', this.collapse);
+            },
+            handleGithub(){
+                window.open("https://github.com/laughAnd/template");
             },
             // 全屏事件
             handleFullScreen() {
