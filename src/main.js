@@ -23,7 +23,6 @@ import echarts from './utils/echarts'  // 按需引入echarts
 Vue.prototype.$echarts = echarts
 
 import 'element-ui/lib/theme-chalk/index.css'; // 默认主题
-// import './assets/css/theme-green/index.css'; // 浅绿色主题
 import './assets/css/icon.css';
 
 Vue.config.productionTip = false

@@ -71,14 +71,12 @@
 
 <script>
   import JtcButton from "@/views/Core/JtcButton";
-  import TableTreeColumn from "@/views/Core/TableTreeColumn";
   import PopupTreeInput from "@/components/PopupTreeInput";
   import { format } from "@/utils/datetime"
   export default {
     components: {
       PopupTreeInput,
       JtcButton,
-      TableTreeColumn,
     },
     data() {
       return {

@@ -33,7 +33,7 @@
     data: function () {
       return {
         param: {
-          username: 'admin',
+          username: 'linseed',
           password: '000000',
         },
         loading:false,

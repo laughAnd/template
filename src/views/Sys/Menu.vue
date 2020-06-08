@@ -120,13 +120,11 @@
 
 <script>
   import JtcButton from "@/views/Core/JtcButton";
-  import TableTreeColumn from "@/views/Core/TableTreeColumn";
   import PopupTreeInput from "@/components/PopupTreeInput";
   export default {
     components: {
       PopupTreeInput,
       JtcButton,
-      TableTreeColumn,
     },
     data() {
       return {

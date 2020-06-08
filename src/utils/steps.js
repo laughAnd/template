@@ -18,6 +18,14 @@ const steps = [
     }
   },
   {
+    element: '.fa-github',
+    popover: {
+      title: 'github',
+      description: '单击打开代码github地址',
+      position: 'bottom'
+    }
+  },
+  {
     element: '.el-icon-s-promotion',
     popover: {
       title: '引导',

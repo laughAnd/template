@@ -12,7 +12,7 @@
                 <!-- github -->
                 <div class="btn-intro" @click="handleGithub">
                     <el-tooltip effect="dark" :content="`github`" placement="bottom">
-                        <el-tooltip effect="dark" :content="`功能引导`" placement="bottom">
+                        <el-tooltip effect="dark" :content="`Github`" placement="bottom">
                             <i class="fa fa-github"></i>
                         </el-tooltip>
                     </el-tooltip>
@@ -40,7 +40,7 @@
                 </div>
                 <!-- 用户头像 -->
                 <div class="user-avator">
-                    <img src="@/assets/user1.png" />
+                    <img src="@/assets/logo4.png" />
                 </div>
                 <!-- 用户名下拉菜单 -->
                 <el-dropdown class="user-name" trigger="click" @command="handleCommand">
